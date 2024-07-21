@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "StudyDucky",
+    "slug": "study-ducky",
+    "description": "StudyDucky is completely free Ukrainian-English languages oriented learning app. It intends to help people learn the languages without any obstacles. StudyDucky offers multiple kinds of exercises for enhancing listening, writing and translation skills. It also helps users learn new vocabulary with sets of flashcards on diverse topics. Users can also create custom flashcard sets for more personalised studying experience. Grammar explaining posts are also offered. Any time users have any questions or issues, they can contact the developer for help.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001f4b"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/PlaywriteDKUloopet.ttf"]
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
