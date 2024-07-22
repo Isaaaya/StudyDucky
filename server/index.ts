@@ -1,11 +1,11 @@
 require('dotenv').config();
 const express = require('express');
-const connectDB = require('./config/connectToDB');
-const authRoutes = require('./routes/authRoutes');
-const userRoutes = require('./routes/userRoutes');
-const postRoutes = require('./routes/postRoutes');
-const flashcardSetRoutes = require('./routes/flashcardSetRoutes');
-const exerciseSetRoutes = require('./routes/exerciseSetRoutes');
+const connectDB = require('./config/connectToDB.ts');
+const authRoutes = require('./routes/authRoutes.ts');
+const userRoutes = require('./routes/userRoutes.ts');
+const postRoutes = require('./routes/postRoutes.ts');
+const flashcardSetRoutes = require('./routes/flashcardSetRoutes.ts');
+const exerciseSetRoutes = require('./routes/exerciseSetRoutes.ts');
 
 const app = express();
 const port = process.env.PORT || 4000;
