@@ -1,3 +1,4 @@
+import {Request, Response} from 'express';
 require('dotenv').config();
 const express = require('express');
 const connectDB = require('./config/connectToDB.ts');
@@ -18,6 +19,10 @@ start();
 
 app.use(express.json());
 
+app.get('/test', (req: Request, res: Response) => {
+    console.log('sended')
+    return res.status(200).json({msg: 'Success'});
+});
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/posts', postRoutes);
