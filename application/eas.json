@@ -3,12 +3,21 @@
     "version": ">= 10.2.1"
   },
   "build": {
+    "production": {
+      "node": "18.18.0"
+    },
     "preview": {
       "ios": {
         "simulator": true
-      }
+      },
+      "extends": "production",
+      "distribution": "internal"
     },
-    "production": {}
+    "development": {
+      "extends": "production",
+      "developmentClient": true,
+      "distribution": "internal"
+    }
   },
   "submit": {
     "production": {}
