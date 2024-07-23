@@ -14,7 +14,8 @@
       "backgroundColor": "#001f4b"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "Y"
     },
     "android": {
       "adaptiveIcon": {
@@ -40,13 +41,30 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/PlaywriteDKUloopet.ttf"]
+          "fonts": [
+            "./assets/fonts/Rubik.ttf"
+          ]
         }
       ],
       "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6225fc48-d805-40e2-810d-6b7cadf4d02a"
+      }
+    },
+    "owner": "asanaya",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6225fc48-d805-40e2-810d-6b7cadf4d02a"
     }
   }
 }
