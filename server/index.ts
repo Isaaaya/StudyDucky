@@ -18,9 +18,6 @@ start();
 
 app.use(express.json());
 
-app.get('/test', () => {
-    console.log('sended')
-});
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/posts', postRoutes);
