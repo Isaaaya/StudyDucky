@@ -18,6 +18,9 @@ start();
 
 app.use(express.json());
 
+app.get('/', () => {
+    console.log('test')
+})
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/posts', postRoutes);
