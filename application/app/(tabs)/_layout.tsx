@@ -16,7 +16,7 @@ const TabsLayout = () => {
     <View className='flex justify-start h-full'>
       <Tabs screenOptions={screenOptions}>
         {tabs.map((tab) => (
-          <Tabs.Screen key={tab?.name} name={tab?.name} options={{
+          <Tabs.Screen key={tab?.name} name={tab?.name} options={{headerShown: false,
             tabBarIcon: () => <Image className='w-[72px] h-[72px]' source={tab.icon as ImageSourcePropType} />
         }} />
         ))}

@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <TouchableWithoutFeedback onPress={() => setTooltipVisible(true)}>
-      <View className='bg-[#01255b] h-[5vh] shadow-md z-50'>
+      <View className='bg-primary h-[5vh] shadow-md z-50'>
         <View className='relative flex flex-row items-center justify-between h-full px-3'>
           <Image className='mx-1 w-9 h-9' source={require('@/assets/icons/ukraine-flag.png') as ImageSourcePropType} alt='Ukraine icons created by Freepik - Flaticon</a>' />
           <View className='flex flex-row items-center self-center justify-center h-full'>

@@ -27,7 +27,7 @@ const UserMainData = ({user}: {user: IUser}) => {
           </View>
         </View>
         <View className='flex flex-row items-stretch self-end w-full border-t-4 border-blue-900'>
-          {userFacts?.map((userFact) => <View key={userFact.title} className={`items-center justify-center flex-1 h-16 border-blue-900 ${userFacts.indexOf(userFact) !== userFacts.length - 1 && 'border-r-4'}`}>
+          {userFacts?.map((userFact) => <View key={userFact.title} className={`items-center flex-1 h-16 pt-2 border-blue-900 ${userFacts.indexOf(userFact) !== userFacts.length - 1 && 'border-r-4'}`}>
             <Text className='text-xl font-bold text-gray-300'>
               {userFact.title}
             </Text>

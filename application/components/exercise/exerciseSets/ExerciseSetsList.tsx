@@ -9,7 +9,7 @@ const ExerciseSetsList = () => {
   const {exerciseSets} = useExerciseSets();
 
   return (
-    <View className='flex h-full w-[80%] mx-auto justify-between pt-12 pb-56 space-y-10'>
+    <View className='flex h-full w-[80%] mx-auto justify-between pt-12 pb-56 space-y-8'>
         {userIsLoading ? 
         <ThemedActivityIndicator /> : 
         <>
