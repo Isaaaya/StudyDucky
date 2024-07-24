@@ -20,7 +20,7 @@ const ListenExercise = ({exercise}: {exercise: IListenExercise}) => {
       <View className='mb-2 overflow-hidden border-4 rounded-xl border-secondary'>
         <Text className='py-3 text-2xl font-semibold text-center bg-white'>
           {phraseParts?.part1}
-           {isUserAnswerChecked ? ` ${correctAnswer} ` : ' _____ '}
+           {isUserAnswerChecked ? <Text className={isUserAnswerChecked && (isUserAnswerCorrect ? 'text-green-400' : 'text-red-400')}> {correctAnswer} </Text> : ' _____ '}
           {phraseParts?.part2}.
         </Text>
       </View>
