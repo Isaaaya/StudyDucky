@@ -1,4 +1,4 @@
-<img src='https://res.cloudinary.com/dsvapbrsj/image/upload/c_fill,h_250,q_100,w_250/v1721930259/Isaaaya-Blog/icon_wzz9mq.webp' width={128} height={128} alt='StudyDucky Logo' />
+<img src='https://res.cloudinary.com/dsvapbrsj/image/upload/c_fill,h_250,q_100,w_250/v1721930259/Isaaaya-Blog/icon_wzz9mq.webp' width={128} height={128} alt='StudyDucky Logo' style={{ border-radius: 25px;}} />
 
 &nbsp;
 
@@ -7,18 +7,6 @@
 &nbsp;
 
 The app intends to help people learn the languages without any obstacles. StudyDucky offers multiple kinds of exercises for enhancing **listening**, **writing** and **translation** skills. It also helps users learn new vocabulary with sets of flashcards on diverse topics. Users can also create custom flashcard sets for more personalised studying experience. Grammar explaining posts are also offered. Any time users have any questions or issues, they can [contact the developer](https://github.com/Isaaaya) for help.
-
-&nbsp;
-
-<iframe
-  width={600}
-  height={400}
-  src="https://www.youtube.com/embed/3peSK3P9j2w"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
 
 &nbsp;
 
