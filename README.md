@@ -2,6 +2,7 @@
   <img src='https://res.cloudinary.com/dsvapbrsj/image/upload/c_fill,h_150,q_100,w_150/v1721930259/Isaaaya-Blog/icon_wzz9mq.webp' alt='StudyDucky Logo' />
 </div>
 
+&nbsp;
 
 **StudyDucky** is a completely free Ukrainian-English languages oriented **learning app** for IOS. 
 
