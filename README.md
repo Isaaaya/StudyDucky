@@ -1,4 +1,4 @@
-<img src='https://res.cloudinary.com/dsvapbrsj/image/upload/c_fill,h_250,q_100,w_250/v1721930259/Isaaaya-Blog/icon_wzz9mq.webp' width={128} height={128} alt='StudyDucky Logo' style={{ border-radius: 25px;}} />
+<img src='https://res.cloudinary.com/dsvapbrsj/image/upload/c_fill,h_250,q_100,w_250/v1721930259/Isaaaya-Blog/icon_wzz9mq.webp' width={128} height={128} alt='StudyDucky Logo' />
 
 &nbsp;
 
