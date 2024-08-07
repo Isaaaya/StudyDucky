@@ -3,6 +3,7 @@
 </div>
 
 &nbsp;
+
 **StudyDucky** is a completely free Ukrainian-English languages oriented **learning app** for IOS. 
 
 The app intends to help people learn the languages without any obstacles. StudyDucky offers multiple kinds of exercises for enhancing **listening**, **writing** and **translation** skills. It also helps users learn new vocabulary with sets of flashcards on diverse topics. Users can also create custom flashcard sets for more personalised studying experience. Grammar explaining posts are also offered. Any time users have any questions or issues, they can [contact the developer](https://github.com/Isaaaya) for help.
